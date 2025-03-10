@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    display: grid;
+    background-color:#242b3dea;
+}
+
+.parent{
+    width: 40%;
+    display: grid;
+    padding: 4rem 4rem;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 1.5rem;
+    background-color: rgb(44, 50, 59);
+    height: 50vh;
+    justify-content: center;
+}
+
+.child{
+display: grid;
+align-items: center;
+text-align: center;
+margin: auto;
+    width: 85%;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #e0dbdbe1;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.icon{
+    align-items: center;
+    justify-content: center;
+    margin: 3.2rem auto;
+    width: 13%;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: rgb(97, 218, 137);
+}
+.icon-img{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin:1rem auto;
+}
+a{
+    margin-top: 3rem;
+}
+p{
+text-transform:uppercase;
+font-weight: 800;
+color: rgb(97, 218, 137);
+font-family:Arial, Helvetica, sans-serif;
+letter-spacing: 0.3rem;
+padding: 1rem;
+}
+
+@media screen and (min-width:750px) {
+.parent{
+    width: 60%;
+    display: grid;
+    
+}
+.child{
+    width: 98%;
+}
+
+.icon{
+    height: 10vh;
+    width: 14%;
+    margin-top: 4rem;
+}
+
+.first-child{
+    margin-top: -3rem;
+    justify-content: center;
+    display: grid;
+}
+}
+@media screen and (max-width:600px) {
+.parent{
+    width: 70%;
+height: 60vh;
+}
+.child{
+    width: 98%;
+}
+
+.icon{
+    height: 10vh;
+    width: 20%;
+    margin-top: 2.5rem;
+}
+
+.attribution{ 
+    
+    margin:5rem auto;
+
+}
+}
+
+@media screen and (min-width:880px) {
+    .parent{
+        width: 40%;
+        height: 48vh;
+    }
+
+    .child{
+        width: 90%;
+    }
+
+.icon{
+    width: 14%;
+    height: 10vh;
+    margin-top: -1rem;
+}
+.icon-img{
+    display: grid;
+    margin-top: 1.4rem;
+}
+
+.img-logo{
+    justify-content: center;
+    display: grid;
+    margin:2rem auto;
+}
+.attribution{ 
+    
+    margin:5rem auto;
+
+}
+}
